@@ -1,0 +1,59 @@
+html,body{
+    height: 100%;
+}
+
+#container{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+#frame{
+    display: flex;
+    height: 60%;
+    border: 1px black solid;
+}
+
+#frame>img{
+    flex: 1;
+}
+
+#slides{
+    height: 100px;
+    display: flex;
+}
+
+#slides>img{
+    flex: 1;
+}
+
+#dots{
+    position: absolute;
+    top: 55%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dots>div{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+.notSelected{
+    background-color: rgba(226, 212, 212, 0.637);s
+}
+
+.selected{
+    background-color: rgba(255, 255, 255, 0.856);
+}

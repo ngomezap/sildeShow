@@ -2,7 +2,12 @@ html,body{
     height: 100%;
 }
 
+body{
+    background-color: black;
+}
+
 #container{
+    margin-top: 5%;
     position: relative;
     height: 100%;
     width: 60%;
@@ -51,7 +56,7 @@ html,body{
 }
 
 .notSelected{
-    background-color: rgba(226, 212, 212, 0.637);s
+    background-color: rgba(226, 212, 212, 0.637);
 }
 
 .selected{
